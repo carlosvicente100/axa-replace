@@ -36,7 +36,10 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1 className="title">Replace App</h1>
+        <div className="top">
+          <h1 className="title">Replace App</h1>
+          <span className="subtitle">Carbon footprint calculator</span>
+        </div>
         <Tabs
           value={tab}
           onChange={handleChange}

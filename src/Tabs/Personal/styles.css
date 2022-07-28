@@ -1,0 +1,68 @@
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+
+  font-size: x-small;
+
+  margin-right: 1.5em;
+}
+
+.log-entry {
+  margin-bottom: 1em;
+}
+
+.error-log-entry {
+  background-color: #ffcccc;
+  padding: 4pt;
+}
+
+.warning-log-entry {
+  background-color: #ffffc6;
+  padding: 4pt;
+}
+
+.info-log-entry {
+  background-color: #ffffff;
+  padding: 4pt;
+}
+
+.log-entry-header {
+  font-weight: bold;
+}
+
+.log-entry-content {
+  margin: 2pt;
+}
+
+.expander {
+  display: block;
+
+  left: 0em;
+
+  width: 1em;
+
+  float: left;
+
+  color: red;
+
+  font-family: "Courier New";
+
+  font-weight: bold;
+
+  text-decoration: none;
+
+  padding-top: 6pt;
+}
+
+td {
+  font-size: x-small;
+
+  font-weight: bold;
+}
+
+.log-entry-content td {
+  padding: 3pt;
+}
+
+.detail-name {
+  font-weight: normal;
+}

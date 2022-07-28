@@ -11,10 +11,21 @@
   color: #282c34;
 }
 
-.title {
+.top {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  margin: 30px;
+  color: #164f89;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  color: #164f89;
 }
 
 .tabs {
